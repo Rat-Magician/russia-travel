@@ -1,6 +1,72 @@
-@import "variables.css";
+@import "variables.css"; 
+@font-face {
+  font-family: "Enter Sansman", sans-serif;
+  src: url("../fonts/enter-sansman.ttf") format("truetype"), url("../fonts/enter-sansman.woff") format("truetype");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: "Enter Sansman", sans-serif;
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px; 
+}
+
+.logo-mobile {
+  padding-top: 16px;
+  width: 142px;
+}
+
+.language-switcher {
+  word-spacing: 18px; 
+  padding-top: 28px;
+}
+
+.lang-ru {
+  text-decoration: underline;
+}
+
+.switcher-style {
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  background: none;
+  border: none
+}
+
+.travel-header {
+  padding-top: 48px;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.losung {
+  padding-top: 16px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.image-mobile-version {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.photo-description {
+  padding-left: 16px;
+  line-height: 14px;
+  font-size: 10px;
+  letter-spacing: 1.5px;
 }
