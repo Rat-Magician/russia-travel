@@ -1,4 +1,4 @@
-@import "variables.css"; 
+@import "variables.css";
 @font-face {
   font-family: "Inter", sans-serif;
   src: url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Regular.woff") format("truetype");
@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px; 
+  padding: 0 16px;
 }
 
 .logo-mobile {
@@ -29,7 +29,7 @@ header {
 }
 
 .language-switcher {
-  word-spacing: 18px; 
+  word-spacing: 18px;
   padding-top: 28px;
 }
 
@@ -65,11 +65,13 @@ header {
   padding-top: 40px;
 }
 
-.photo-description {
+.photo-caption {
   padding-left: 16px;
   line-height: 14px;
   font-size: 10px;
   letter-spacing: 1.5px;
+  padding-top: 4px;
+  text-transform: uppercase;
 }
 
 .intro-title {
@@ -81,12 +83,12 @@ header {
 }
 
 .intro-text {
-font-size: 16px;
-line-height: 26px;
-padding: 40px 16px 0 16px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 40px 16px 0 16px;
 }
 
-.intro-list{
+.intro-list {
   font-size: 12px;
   font-weight: bold;
   line-height: 18px;
@@ -98,3 +100,5 @@ padding: 40px 16px 0 16px;
   padding-left: 4px;
   font-weight: 200;
 }
+
+
