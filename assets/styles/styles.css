@@ -1,7 +1,7 @@
-@import "variables.css"; 
+@import "variables.css";
 @font-face {
-  font-family: "Enter Sansman", sans-serif;
-  src: url("../fonts/enter-sansman.ttf") format("truetype"), url("../fonts/enter-sansman.woff") format("truetype");
+  font-family: "Inter", sans-serif;
+  src: url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Regular.woff") format("truetype");
   font-style: normal;
 }
 
@@ -11,16 +11,16 @@
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--font-color);
-  font-family: "Enter Sansman", sans-serif;
+  background-color: var(--gray-2);
+  color: var(--white-1);
+  font-family: "Inter", sans-serif;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px; 
+  padding: 0 16px;
 }
 
 .logo-mobile {
@@ -29,7 +29,7 @@ header {
 }
 
 .language-switcher {
-  word-spacing: 18px; 
+  word-spacing: 18px;
   padding-top: 28px;
 }
 
@@ -46,6 +46,7 @@ header {
 }
 
 .travel-header {
+  font-weight: 900;
   padding-top: 48px;
   font-size: 40px;
   line-height: 44px;
@@ -64,9 +65,40 @@ header {
   padding-top: 40px;
 }
 
-.photo-description {
+.photo-caption {
   padding-left: 16px;
   line-height: 14px;
   font-size: 10px;
   letter-spacing: 1.5px;
+  padding-top: 4px;
+  text-transform: uppercase;
 }
+
+.intro-title {
+  font-weight: 900;
+  line-height: 35px;
+  font-size: 32px;
+  text-align: left;
+  padding: 64px 16px 0 16px;
+}
+
+.intro-text {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 40px 16px 0 16px;
+}
+
+.intro-list {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 34px 16px 0 16px;
+  list-style: none;
+}
+
+.intro-data {
+  padding-left: 4px;
+  font-weight: 200;
+}
+
+
