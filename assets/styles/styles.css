@@ -101,4 +101,14 @@ header {
   font-weight: 200;
 }
 
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 64px 16px 0 16px;
+}
+
+.photo-grid {
+  width:100%;
+  margin-bottom: 12px;
+}
 
