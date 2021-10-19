@@ -81,11 +81,11 @@ header {
   text-align: left;
 }
 
-.padding {
+.section-side-padding {
   padding: 0 16px;
 }
 
-.top {
+.top-indent {
   padding-top: 64px;
 }
 
