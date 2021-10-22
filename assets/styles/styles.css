@@ -160,13 +160,16 @@ header {
 .background-cover {
   background: url("../images/train-to-baikal.png");
   background-repeat: no-repeat;
-  text-decoration: none; 
+  text-decoration: none;
   margin-top: 66px;
   background-size: cover;
+  justify-content: center;
   display: flex;
 }
 
 .text-cover {
+  display: block;
+  padding-top: 32px;
   list-style: none;
   text-align: center;
   color: var(--white-1);
@@ -188,8 +191,14 @@ header {
 }
 
 .footer-cover {
+  list-style: none;
+  padding-top: 64px;
   font-size: 24px;
   text-align-last: left;
-  flex-direction: column;
-  display: flex;
+}
+
+.copyright-footer {
+  font-size: 14px;
+  padding-top: 48px;
+  padding-bottom: 46px;
 }
