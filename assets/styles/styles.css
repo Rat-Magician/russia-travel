@@ -167,6 +167,10 @@ header {
   display: flex;
 }
 
+.footer-cover li:first-child a { 
+  padding-top: 0;
+}
+
 .text-cover {
   display: block;
   padding-top: 32px;
@@ -180,7 +184,6 @@ header {
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  padding-top: 33px;
   padding-bottom: 16px;
 }
 
@@ -200,5 +203,5 @@ header {
 .copyright-footer {
   font-size: 14px;
   padding-top: 48px;
-  padding-bottom: 46px;
+  padding-bottom: 24px;
 }
