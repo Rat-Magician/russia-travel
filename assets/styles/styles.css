@@ -156,3 +156,52 @@ header {
   line-height: 26px;
   padding-top: 32px;
 }
+
+.background-cover {
+  background: url("../images/train-to-baikal.png");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  margin-top: 66px;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-cover li:first-child a { 
+  padding-top: 0;
+}
+
+.text-cover {
+  display: block;
+  padding-top: 32px;
+  list-style: none;
+  text-align: center;
+  color: var(--white-1);
+  text-decoration: none;
+}
+
+.cover-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  padding-bottom: 16px;
+}
+
+.cover-subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 33px;
+}
+
+.footer-cover {
+  list-style: none;
+  padding-top: 64px;
+  font-size: 24px;
+  text-align-last: left;
+}
+
+.copyright-footer {
+  font-size: 14px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
