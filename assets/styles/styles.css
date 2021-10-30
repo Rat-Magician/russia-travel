@@ -1,10 +1,4 @@
 @import "variables.css";
-@font-face {
-  font-family: "Inter", sans-serif;
-  src: url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Regular.woff") format("truetype");
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -208,7 +202,7 @@ header {
   header {
     padding: 28px 24px 0;
   }
-
+  
   .travel-header {
     padding-top: 48px;
     font-size: 96px;
@@ -245,7 +239,10 @@ header {
   }
 
   .landmark-image {
-    width: 44.4%;
+    width: 40.1%;
+    padding-top: 15px;
+    padding-left: 24px;
+    padding-bottom: 65px;
   }
 
   .place-name {
@@ -257,9 +254,83 @@ header {
     justify-content: space-between;
     padding-right: 24px;
   }
-  
-  .intro-title { 
+
+  .intro-title {
     white-space: nowrap;
   }
+
+  .places-media {
+    display: flex;
+    padding-top: 5px;
+  }
+
+  .url-place {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 9px;
+  }
+
+  .url-heading {
+    padding-top: 12px;
+  }
+
+  .site-url {
+    margin-left: -53px;
+  }
+
+  .places-header {
+    display: flex;
+  }
+
+  .place-info {
+    padding-left: 28px;
+  }
+
+  .place-name {
+    width: 321px;
+  }
+
+  .cover-title {
+    font-size: 72px;
+    line-height: 76px;
+  }
   
-} 
+  .text-cover:first-child p {
+    padding: 32px 0 115px 0;
+  }
+
+  .cover-subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .train-cover {
+    padding: 115px 104px 0 104px;
+  }
+
+  .footer-cover {
+    display: flex;
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .footer-padding {
+    padding-left: 18px;
+  }
+
+  .copyright-footer {
+    font-size: 14px;
+    display: flex;
+    padding-left: 69px;
+    padding-bottom: 24px;
+    align-self: flex-end;
+  }
+
+  .footer-cover li:first-child a {
+    padding-top: 32px;
+  }
+}
