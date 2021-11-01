@@ -203,10 +203,18 @@ header {
     padding: 28px 24px 0;
   }
   
+  .logo-mobile {
+    width: 176px;
+  }
+
   .travel-header {
     padding-top: 48px;
     font-size: 96px;
     line-height: 100px;
+  }
+
+  .switcher-style {
+    font-size: 24px;
   }
 
   .losung {
@@ -238,15 +246,19 @@ header {
     padding: 88px 0 0 24px;
   }
 
+  .landmark {
+    padding-top: 44px
+  }
+
   .landmark-image {
-    width: 40.1%;
-    padding-top: 15px;
-    padding-left: 24px;
-    padding-bottom: 65px;
+    width: 47%;
+    margin-top: 0;
   }
 
   .place-name {
     font-size: 42px;
+    width: 47%;
+    padding-left: 0;
   }
 
   .thumbnails {
@@ -259,23 +271,26 @@ header {
     white-space: nowrap;
   }
 
+  .places {
+    padding: 0 24px;
+  }
+
   .places-media {
     display: flex;
-    padding-top: 5px;
+    padding-top: 48px;
   }
 
   .url-place {
     display: flex;
     align-self: flex-end;
-    margin-left: 9px;
+    padding-left: 28px;
+    flex-direction: column;
+    padding-bottom: 7px;
   }
 
   .url-heading {
     padding-top: 12px;
-  }
-
-  .site-url {
-    margin-left: -53px;
+    padding-left: 0;
   }
 
   .places-header {
@@ -284,10 +299,7 @@ header {
 
   .place-info {
     padding-left: 28px;
-  }
-
-  .place-name {
-    width: 321px;
+    padding-top: 0;
   }
 
   .cover-title {
@@ -334,3 +346,58 @@ header {
     padding-top: 32px;
   }
 }
+
+@media (min-width: 1024px) {
+  header {
+    padding: 28px 48px 0 48px;
+  }
+
+  .losung {
+    padding: 32px 192px 0 192px;
+  }
+  .image-mobile-version {
+    padding: 56px 48px 0 48px ;
+    width: 90.1%;
+  }
+
+  .photo-caption {
+    margin-top: 8px;
+  }
+
+  .section-side-padding {
+    padding: 0 48px 0 48px;
+  }
+
+  .intro-title {
+    margin-bottom: 40px;
+  }
+
+  .intro-list {
+    margin-top: 33px;
+  }
+
+  .top-indent {
+    padding-top: 92px;
+  }
+
+  .photo-grid {
+    width: 31.6%;
+    padding-left: 0;
+  }
+
+  .place-name {
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .place-info {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .landmark-image {
+    padding-left: 48px;
+  }
+
+}
+
