@@ -246,10 +246,6 @@ header {
     margin-bottom: 16px;
   }
 
-  .top-indent {
-    padding: 88px 0 0 24px;
-  }
-
   .landmark {
     padding-top: 44px
   }
@@ -378,16 +374,18 @@ header {
     padding: 0 48px 0 48px;
   }
 
+  .intro-text {
+    font-size: 16px;
+  }
+
   .intro-title {
     margin-bottom: 40px;
+    padding-top: 92px;
   }
 
   .intro-list {
     margin-top: 33px;
-  }
-
-  .top-indent {
-    padding-top: 92px;
+    padding-bottom: 92px;
   }
 
   .photo-grid {
@@ -410,8 +408,16 @@ header {
     line-height: 30px;
   }
 
+  .background-cover {
+    margin-top: 92px;
+  }
+
+  .landmark {
+    padding-top: 40px;
+  }
+
   .landmark-image {
-    margin-bottom: 92px;
+    margin-bottom: 0;
     width: 42%;
   }
 
@@ -420,7 +426,7 @@ header {
   }
 
   .footer-cover {
-    padding-top: 92px;
+    padding-top: 74px;
     padding-bottom: 24px;
   }
 
@@ -428,5 +434,13 @@ header {
     padding-bottom: 25px;
     margin-left: auto;
   }
-}
 
+  .cover-title {
+    padding-bottom: 30px;
+  }
+
+  .text-cover:first-child p {
+    padding-bottom: 195px;
+    padding-top: 0;
+}
+}
