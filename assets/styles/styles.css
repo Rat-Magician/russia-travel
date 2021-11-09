@@ -2,12 +2,23 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: var(--gray-2);
   color: var(--white-1);
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1280px;
+  width: 100%;
 }
 
 header {
@@ -50,6 +61,10 @@ header {
   font-size: 16px;
   text-align: center;
   line-height: 20px;
+}
+
+figure {
+  width: 100%;
 }
 
 .image-mobile-version {
@@ -153,19 +168,33 @@ header {
   padding-top: 32px;
 }
 
-.background-cover {
-  background: url("../images/train-to-baikal.png");
-  background-repeat: no-repeat;
+.footer-promo {
+  position: relative;
   text-decoration: none;
   margin-top: 66px;
-  background-size: cover;
   justify-content: center;
   display: flex;
+  max-width: 1148px;
+  margin: 0 auto;
 }
 
-.train-cover {
+.footer-promo__info {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   color: var(--white-1);
   text-align: center;
+  max-width: 560px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.footer-promo__background {
+  width: 100%;
 }
 
 .footer-cover li:first-child a {
@@ -329,11 +358,7 @@ header {
     line-height: 22px;
   }
 
-  .train-cover {
-    padding: 115px 104px 0 104px;
-  }
-
-  .background-cover {
+  .footer-promo {
     margin-top: 140px;
   }
 
@@ -375,7 +400,6 @@ header {
 
   .image-mobile-version {
     padding: 56px 48px 0 48px ;
-    width: 90.1%;
   }
 
   .photo-caption {
@@ -426,7 +450,7 @@ header {
     line-height: 30px;
   }
 
-  .background-cover {
+  .footer-promo {
     margin-top: 92px;
   }
 
@@ -437,10 +461,6 @@ header {
   .landmark-image {
     margin-bottom: 0;
     width: 46.6%;
-  }
-
-  .train-cover {
-    padding: 195px 232px 195px 232px;
   }
 
   .footer-cover {
@@ -460,5 +480,52 @@ header {
   .footer-link:first-child p {
     padding-bottom: 195px;
     padding-top: 0;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .travel-header {
+    padding: 56px 280px 0 280px
+  }
+
+  .losung {
+    padding: 32px 380px 0 380px;
+  }
+
+  .image-mobile-version {
+    padding: 64px 148px 0 148px;
+  }
+
+  .photo-caption {
+    padding-left: 148px;
+  }
+
+  .intro {
+    padding-left: 99px;
+  }
+
+  .photo-grid {
+    width: 24%;
+  }
+
+  .landmark-image {
+    width: 47.6%;
+  }
+
+  .place-info {
+    padding: 0 0 0 40px;
+  }
+
+  .places {
+    padding: 0 148px;
+  }
+
+  .url-place {
+    padding-left: 86px;
+  }
+
+  .footer-cover {
+    padding-left: 32px;
   }
 }
